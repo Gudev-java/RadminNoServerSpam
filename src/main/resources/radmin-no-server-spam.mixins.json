@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.radmin.spam.filter.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"LanServerListMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
