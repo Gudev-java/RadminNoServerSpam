@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "radmin-no-server-spam",
+	"version": "${version}",
+	"name": "RadminNoServerSpam",
+	"description": "умный фильтр спама в локальной сети (LAN)",
+	"authors": [
+		"Gudev"
+	],
+	"contact": {
+		"sources": "https://github.com/Gudev-java/RadminNoServerSpam"
+	},
+	"license": "MIT",
+	"icon": "assets/radmin-no-server-spam/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.radmin.spam.filter.RadminNoServerSpam"
+		]
+	},
+	"mixins": [
+		"radmin-no-server-spam.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": ">=1.21",
+		"java": ">=21"
+	}
+}
